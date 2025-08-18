@@ -344,7 +344,7 @@ export default function ProductDetailsPage() {
                 <p className="text-xl md:text-2xl font-bold text-gray-900">
                 {
                   !product?.perDayPricing ? "Call For Pricing" :
-                  "Total: ${(quantity * discountedPrice).toFixed(2)}"
+                  <span>Total: ${(quantity * discountedPrice).toFixed(2)}</span>
                 }
                   
                 </p>
