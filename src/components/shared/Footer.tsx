@@ -21,7 +21,7 @@ const Footer = () => {
               aria-label="Home"
             >
               <span className="bg-gradient-to-r from-rose-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-                MY COLOR EVENTS
+                MY
               </span>
             </Link>
             <div className="space-y-2">
