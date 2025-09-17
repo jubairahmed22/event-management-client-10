@@ -10,6 +10,7 @@ import { FilterProvider } from "./contexts/FilterContext";
 import NavbarDynamicSidebarAllProduct from "@/components/shared/NavbarDynamicSidebarAllProduct";
 import NavbarMenu from "@/components/shared/NavbarMenu";
 import Script from "next/script";
+import NavbarWhatsapp from "@/components/shared/NavbarWhatsapp";
 
 export const metadata: Metadata = {
   title: "My Color Events",
@@ -59,6 +60,7 @@ export default async function RootLayout({
       <FilterProvider>
       {/* <NavbarDynamicSidebar></NavbarDynamicSidebar> */}
       {/* <NavbarDynamicSidebarAllProduct></NavbarDynamicSidebarAllProduct> */}
+      <NavbarWhatsapp></NavbarWhatsapp>
       <NavbarMenu></NavbarMenu>
       <NavCart />
       <div className="min-h-screen">{children}</div>
